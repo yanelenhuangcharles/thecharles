@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>The Charles</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/flexslider.css">
+		<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="img/favicon.ico">
+	</head>
+	<body id="page-top">
+		<header class="header clearfix">
+			<img src="img/thecharles.png" alt="The Charles">
+			<nav class="header-nav">
+				<a href="#about">about</a>
+				<a href="#plan">book our service</a>
+				<a href="#contact">contact</a>
+			</nav>
+		</header>
+		<header class="sticky clearfix">
+			<a href="#page-top"><img src="img/logo.png" alt="The Charles"></a>
+			<nav class="sticky-nav">
+				<a href="#about-sticky">about</a>
+				<a href="#plan-sticky">book our service</a>
+				<a href="#contact-sticky">contact</a>
+			</nav>
+		</header>
+
+		<main class="clearfix">
+			<div class="flexslider">
+				<ul class="slides">
+			    <li>
+			      <img src="img/image1.jpg" />
+			    </li>
+			    <li>
+			      <img src="img/image2.jpg" />
+			    </li>
+			    <li>
+			      <img src="img/image3.jpg" />
+			    </li>
+			  </ul>
+			</div>
+
+			<section class="about">
+        <span class="anchor" id="about"></span>
+        <span class="anchor-sticky" id="about-sticky"></span>
+				<h1>we help you create the most memorable moment with your love.</h1>
+				<hr class="divider">
+				<p>Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis.</p>
+		  </section>
+
+      <section class="plan">
+        <span class="anchor" id="plan"></span>
+        <span class="anchor-sticky" id="plan-sticky"></span>
+        <div class="container-fluid plan-container">
+          <h1>plan your big day</h1>
+          <p>If you don't have a clue, let us help you find out.</p>
+          <form role="form">
+            <div class="row">
+              <div class="col-sm-6 form-group">
+                <input type="text" class="form-control" placeholder="Give us your budget range." >
+              </div>
+              <div class="col-sm-3 form-group">
+                <input type="text" class="form-control" value="The Date" id="date" readonly>
+              </div>
+              <div class="col-sm-3 form-group dropdown">
+                <input type="text" class="form-control dropdown-toggle" data-toggle="dropdown" value="The Location" id="location">
+                <ul class="dropdown-menu">
+                  <li><a href="#">New York</a></li>
+                  <li><a href="#">Seattle</a></li>
+                  <li><a href="#">San Francisco</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4 form-group">
+                <input id="checkbox1" type="checkbox">
+                  <label for="checkbox1" class="budget">Give us your budget</label>
+              </div>
+              <div class="col-sm-4 form-group">
+                <input id="checkbox2" type="checkbox">
+                  <label for="checkbox2" class="budget">Give us your budget</label>
+              </div>
+              <div class="col-sm-4 form-group">
+                <input id="checkbox3" type="checkbox">
+                  <label for="checkbox3" class="budget">Give us your budget</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group">
+                <textarea  rows="6" placeholder="Additional Notes and Information."></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group" style="text-align: center;">
+                <input type="submit" value="send us your request">
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="contact">
+        <span class="anchor" id="contact"></span>
+        <span class="anchor-sticky" id="contact-sticky"></span>
+        <h1>contact us</h1>
+        <hr class="divider">
+        <div class="phone">
+          <a href="tel:1-123-456-7890"><img src="img/phone.png">1.123.456.7890</a>
+        </div>
+        <div class="email">
+          <a href="mailto:info@thecharlesnyc.com"><img src="img/stamp.png">info@thecharlesnyc.com</a>
+        </div>
+        <div class="social">
+          <a href="#" id="twitter"><img src="img/twitter.png"></a>
+          <a href="#" id="vimeo"><img src="img/vimeo.png"></a>
+          <a href="#" id="facebook"><img src="img/facebook.png"></a>
+          <a href="#" id="pinterest"><img src="img/pinterest.png"></a>
+        </div>
+      </section>
+		</main>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		<script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
